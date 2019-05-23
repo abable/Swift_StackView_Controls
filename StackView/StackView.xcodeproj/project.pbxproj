@@ -12,6 +12,12 @@
 		6111BD7222964D43004A2D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6111BD7022964D43004A2D60 /* Main.storyboard */; };
 		6111BD7422964D45004A2D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6111BD7322964D45004A2D60 /* Assets.xcassets */; };
 		6111BD7722964D45004A2D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6111BD7522964D45004A2D60 /* LaunchScreen.storyboard */; };
+		6149F88022969AC000C53BA7 /* Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149F87F22969AC000C53BA7 /* Axis.swift */; };
+		6149F88222969ED600C53BA7 /* AlignmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149F88122969ED600C53BA7 /* AlignmentController.swift */; };
+		6149F8842296A1B400C53BA7 /* DistributionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149F8832296A1B400C53BA7 /* DistributionViewController.swift */; };
+		6149F8862296A33C00C53BA7 /* StackViewSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149F8852296A33C00C53BA7 /* StackViewSpacingViewController.swift */; };
+		6149F8882296A38C00C53BA7 /* SpacingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149F8872296A38C00C53BA7 /* SpacingController.swift */; };
+		6149F88A2296A70A00C53BA7 /* ArrangedSubviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149F8892296A70A00C53BA7 /* ArrangedSubviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		6111BD7322964D45004A2D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6111BD7622964D45004A2D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6111BD7822964D45004A2D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6149F87F22969AC000C53BA7 /* Axis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Axis.swift; sourceTree = "<group>"; };
+		6149F88122969ED600C53BA7 /* AlignmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentController.swift; sourceTree = "<group>"; };
+		6149F8832296A1B400C53BA7 /* DistributionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionViewController.swift; sourceTree = "<group>"; };
+		6149F8852296A33C00C53BA7 /* StackViewSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewSpacingViewController.swift; sourceTree = "<group>"; };
+		6149F8872296A38C00C53BA7 /* SpacingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingController.swift; sourceTree = "<group>"; };
+		6149F8892296A70A00C53BA7 /* ArrangedSubviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrangedSubviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				6111BD7322964D45004A2D60 /* Assets.xcassets */,
 				6111BD7522964D45004A2D60 /* LaunchScreen.storyboard */,
 				6111BD7822964D45004A2D60 /* Info.plist */,
+				6149F87F22969AC000C53BA7 /* Axis.swift */,
+				6149F88122969ED600C53BA7 /* AlignmentController.swift */,
+				6149F8832296A1B400C53BA7 /* DistributionViewController.swift */,
+				6149F8852296A33C00C53BA7 /* StackViewSpacingViewController.swift */,
+				6149F8872296A38C00C53BA7 /* SpacingController.swift */,
+				6149F8892296A70A00C53BA7 /* ArrangedSubviewViewController.swift */,
 			);
 			path = StackView;
 			sourceTree = "<group>";
@@ -136,7 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6111BD6F22964D43004A2D60 /* ViewController.swift in Sources */,
+				6149F88022969AC000C53BA7 /* Axis.swift in Sources */,
+				6149F8862296A33C00C53BA7 /* StackViewSpacingViewController.swift in Sources */,
 				6111BD6D22964D43004A2D60 /* AppDelegate.swift in Sources */,
+				6149F8882296A38C00C53BA7 /* SpacingController.swift in Sources */,
+				6149F88222969ED600C53BA7 /* AlignmentController.swift in Sources */,
+				6149F88A2296A70A00C53BA7 /* ArrangedSubviewViewController.swift in Sources */,
+				6149F8842296A1B400C53BA7 /* DistributionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
